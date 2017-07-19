@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {}
+
+body {
+    min-height: 100vh;
+    background-color: #1A1E24;
+    background-color: #fafafa;
+    color: #fafafa;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.flex--center {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex--between {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex--around {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex--end {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.flex--column {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.site {
+    flex-grow: 1;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.topbanner {
+    background-image: url('bannerBg.jpg');
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(63, 61, 78, .5);
+}
+
+.header {
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 2em;
+}
+
+.header-nav {
+    width: 40%;
+}
+
+.cadet {
+    color: #7eb1b3;
+    color: #cbfdfe;
+}
+
+.nav-link {
+    color: #fafafa;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 6px 25px;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    transition: .3s all;
+    color: cadetblue;
+}
+
+.main {}
+
+.main .container {
+    font-family: 'Cuprum', sans-serif;
+    height: 100vh;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+}
+
+.main-text {
+    font-weight: 400;
+    text-align: center;
+}
+
+.reasons-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer {
+    flex-grow: 0;
+    width: 100%;
+    height: 50px;
+    background-color: cadetblue;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    /*
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+*/
+    background-color: #bedbda;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: cadetblue;
+}
